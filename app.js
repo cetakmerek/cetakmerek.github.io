@@ -48,7 +48,7 @@ tombolProduk.forEach(function(e){
       
       
       
-       let parameter = `${url_wa}?phone=6282118391206&?text=*${waktu()}%20Cetak%Merek*%20Saya%20Ingin%20Bertanya%20Tentang%20Produk%20*${hed}*`
+       let parameter = `${url_wa}?phone=6282118391206&text=*${waktu()}%20Cetak%Merek*%20Saya%20Ingin%20Bertanya%20Tentang%20Produk%20*${hed}*`
      
      
    return window.open(parameter);
