@@ -17,7 +17,7 @@ var swiper = new Swiper(".swiper", {
 
 
   // pasang link external
-  Defer.dom('img.lazy', 200, 'loaded');
+  Defer.dom('img', 200, 'loaded');
   Defer.css('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css',200);
  // Defer.css(' https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap',100);//
 })
@@ -48,7 +48,7 @@ tombolProduk.forEach(function(e){
       
       
       
-       let parameter = `${url_wa}?phone=6282118391206&text=*${waktu()}%20Cetak%Merek*%20Saya%20Ingin%20Bertanya%20Tentang%20Produk%20*${hed}*`
+       let parameter = `${url_wa}?phone=6282118391206&text=*${waktu()}%20Cetak%20Merek*%20Saya%20Ingin%20Bertanya%20Tentang%20Produk%20*${hed}*`
      
      
    return window.open(parameter);
